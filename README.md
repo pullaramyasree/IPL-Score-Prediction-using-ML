@@ -1,4 +1,3 @@
-![Image](https://github.com/user-attachments/assets/98d3a91f-24c8-4465-a8fa-0679c22164fb)
 
 # IPL-Score-Prediction-using-ML
 The IPL score prediction project uses machine learning to forecast scores of IPL matches based on historical data. It involves data collection, preprocessing, and feature engineering, utilizing algorithms like linear regression and decision trees. Python is employed for model training and evaluation to enhance prediction accuracy.
@@ -10,7 +9,7 @@ We humans can't easily identify patterns from huge data, deep learning algorithm
 We are importing all necessary Python libraries such as NumPy, Pandas, Scikit-learn, Matplotlib, Keras and Seaborn required for data handling, visualization, preprocessing and building deep learning models.
 
 # Step 2 Loading the Dataset
-The dataset can be downloaded from Internet. It contains data from 2008 to 2017 and contains features like venue, date, batting and bowling team, names of batsman and bowler, wickets and more. We will load the IPL cricket data from CSV files into pandas DataFrames to explore and prepare for modeling.
+The dataset is uploaded in the repository. It contains data from 2008 to 2017 and contains features like venue, date, batting and bowling team, names of batsman and bowler, wickets and more. We will load the IPL cricket data from CSV files into pandas DataFrames to explore and prepare for modeling.
 
 # Step 3 Dropping Unnecessary Features
 Here, some columns are dropped from the data because they are not needed for prediction. For example: 'runs', 'wickets' etc., might be targets or irrelevant features for predicting the total score because the project is prematch analysis.
@@ -49,12 +48,14 @@ Here, we define a neural network model:
 
 # Step 11 Plotting Loss
 •	This plots the training loss over the epochs to visually track how well the model is improving during training.
+![Image](https://github.com/user-attachments/assets/051d1d8b-fca6-456c-a720-5926194e23b7)
 
 # Step 12 Making Predictions
 •	predict(): After training, the model is used to make predictions on the test data (X_test_scaled).
 
 # Step 13 Evaluating the Model
 •	mean_absolute_error(): This function computes the mean absolute error (MAE) between the true values (y_test) and predicted values (predictions). MAE tells us how much, on average, the predictions deviate from the true values.
+![Image](https://github.com/user-attachments/assets/61e80bf0-5d9a-415d-9d3b-f753f1a4ee0d)
 
 # Step 14 Interactive Widgets for Prediction
 This section sets up interactive widgets for users to select values for the model's input (venue, teams, etc.). This allows you to make predictions based on user input.
@@ -64,3 +65,4 @@ This section sets up interactive widgets for users to select values for the mode
 o	Decodes the user-selected categorical inputs.
 o	Scales the inputs.
 o	Makes a prediction using the model and prints the predicted score.
+![Image](https://github.com/user-attachments/assets/7fd3f071-a57f-41f5-a33c-c6ae1a220057)
