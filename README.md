@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/98d3a91f-24c8-4465-a8fa-0679c22164fb)
+
 # IPL-Score-Prediction-using-ML
 The IPL score prediction project uses machine learning to forecast scores of IPL matches based on historical data. It involves data collection, preprocessing, and feature engineering, utilizing algorithms like linear regression and decision trees. Python is employed for model training and evaluation to enhance prediction accuracy.
 
